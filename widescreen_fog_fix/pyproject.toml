@@ -17,5 +17,5 @@ name = "Widescreen Fog Fix"
 license = { name = "MIT", url = "https://choosealicense.com/licenses/mit/" }
 coop_support = "ClientSide"
 supported_games = ["BL2"]
-download = "https://github.com/lumi-fiona/bl2-widescreen-fog-fix/releases/latest"
+download = "https://github.com/lumi-fiona/bl2-widescreen-fog-fix/releases/latest/download/widescreen_fog_fix.sdkmod"
 version = "1.0"
