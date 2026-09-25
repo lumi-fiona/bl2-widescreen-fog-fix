@@ -1,0 +1,21 @@
+[project]
+name = "widescreen_fog_fix"
+version = "1.0"
+authors = [{ name = "Lumi" }]
+description = """\
+Keeps the fog and haze at any field of view on wide screens.
+Above about 107 FOV on 32:9 (about 125 on 21:9) the game stops drawing a map's fog on the ground, \
+and the sprint zoom crosses that line too. This moves the engine's cut-off out of the way, in \
+memory only.\
+"""
+
+[project.urls]
+Homepage = "https://github.com/lumi-fiona/bl2-widescreen-fog-fix"
+
+[tool.sdkmod]
+name = "Widescreen Fog Fix"
+license = { name = "MIT", url = "https://choosealicense.com/licenses/mit/" }
+coop_support = "ClientSide"
+supported_games = ["BL2"]
+download = "https://github.com/lumi-fiona/bl2-widescreen-fog-fix/releases/latest"
+version = "1.0"
